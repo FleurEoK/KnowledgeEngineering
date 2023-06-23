@@ -1,0 +1,564 @@
+{
+        "earlierRef": null,
+        "laterRef": "2|OF|MT#14#255831#255831#256117#256117#0#0#485#255755#3#0#1050#0#0#-2147483648#1#2|PDH#e86a77f88f8c12dee1e6bfe364ace4b4|RD#4062023|RT#125612|US#0",
+        "journeys": [
+                {
+                        "type": "journey",
+                        "legs": [
+                                {
+                                        "origin": {
+                                                "type": "stop",
+                                                "id": "7400002",
+                                                "name": "Stockholm Central",
+                                                "location": {
+                                                        "type": "location",
+                                                        "id": "7400002",
+                                                        "latitude": 59.33001,
+                                                        "longitude": 18.05763
+                                                },
+                                                "products": {
+                                                        "nationalExpress": true,
+                                                        "national": true,
+                                                        "regionalExpress": true,
+                                                        "regional": true,
+                                                        "suburban": false,
+                                                        "bus": false,
+                                                        "ferry": false,
+                                                        "subway": false,
+                                                        "tram": false,
+                                                        "taxi": false
+                                                }
+                                        },
+                                        "destination": {
+                                                "type": "stop",
+                                                "id": "7400003",
+                                                "name": "Göteborg Central",
+                                                "location": {
+                                                        "type": "location",
+                                                        "id": "7400003",
+                                                        "latitude": 57.709309,
+                                                        "longitude": 11.973425
+                                                },
+                                                "products": {
+                                                        "nationalExpress": true,
+                                                        "national": true,
+                                                        "regionalExpress": true,
+                                                        "regional": true,
+                                                        "suburban": false,
+                                                        "bus": true,
+                                                        "ferry": false,
+                                                        "subway": false,
+                                                        "tram": false,
+                                                        "taxi": false
+                                                }
+                                        },
+                                        "departure": "2023-06-04T13:33:00+02:00",
+                                        "plannedDeparture": "2023-06-04T13:33:00+02:00",
+                                        "departureDelay": null,
+                                        "arrival": "2023-06-04T16:35:00+02:00",
+                                        "plannedArrival": "2023-06-04T16:35:00+02:00",
+                                        "arrivalDelay": null,
+                                        "reachable": true,
+                                        "tripId": "1|909758|0|80|4062023",
+                                        "line": {
+                                                "type": "line",
+                                                "id": "x2-435",
+                                                "fahrtNr": "435",
+                                                "name": "X2 435",
+                                                "public": true,
+                                                "adminCode": "74____",
+                                                "productName": "X2",
+                                                "mode": "train",
+                                                "product": "nationalExpress",
+                                                "operator": {
+                                                        "type": "operator",
+                                                        "id": "sj",
+                                                        "name": "SJ"
+                                                }
+                                        },
+                                        "direction": "Göteborg Central",
+                                        "arrivalPlatform": null,
+                                        "plannedArrivalPlatform": null,
+                                        "arrivalPrognosisType": "prognosed",
+                                        "departurePlatform": null,
+                                        "plannedDeparturePlatform": null,
+                                        "departurePrognosisType": "prognosed",
+                                        "remarks": [
+                                                {
+                                                        "text": "Subject to compulsory reservation",
+                                                        "type": "hint",
+                                                        "code": "compulsory-reservation",
+                                                        "summary": "compulsory seat reservation"
+                                                },
+                                                {
+                                                        "type": "hint",
+                                                        "code": "OR",
+                                                        "text": "Seat reservation included in price when purchased together with ticket"
+                                                },
+                                                {
+                                                        "text": "Bordrestaurant",
+                                                        "type": "hint",
+                                                        "code": "on-board-restaurant",
+                                                        "summary": "Bordrestaurant available"
+                                                },
+                                                {
+                                                        "text": "space for wheelchairs",
+                                                        "type": "hint",
+                                                        "code": "wheelchairs-space",
+                                                        "summary": "space for wheelchairs"
+                                                },
+                                                {
+                                                        "text": "power sockets for laptop",
+                                                        "type": "hint",
+                                                        "code": "power-sockets",
+                                                        "summary": "power sockets available"
+                                                }
+                                        ]
+                                },
+                                {
+                                        "origin": {
+                                                "type": "stop",
+                                                "id": "7400003",
+                                                "name": "Göteborg Central",
+                                                "location": {
+                                                        "type": "location",
+                                                        "id": "7400003",
+                                                        "latitude": 57.709309,
+                                                        "longitude": 11.973425
+                                                },
+                                                "products": {
+                                                        "nationalExpress": true,
+                                                        "national": true,
+                                                        "regionalExpress": true,
+                                                        "regional": true,
+                                                        "suburban": false,
+                                                        "bus": true,
+                                                        "ferry": false,
+                                                        "subway": false,
+                                                        "tram": false,
+                                                        "taxi": false
+                                                }
+                                        },
+                                        "destination": {
+                                                "type": "stop",
+                                                "id": "7400014",
+                                                "name": "Halmstad Central",
+                                                "location": {
+                                                        "type": "location",
+                                                        "id": "7400014",
+                                                        "latitude": 56.669212,
+                                                        "longitude": 12.864301
+                                                },
+                                                "products": {
+                                                        "nationalExpress": true,
+                                                        "national": false,
+                                                        "regionalExpress": true,
+                                                        "regional": true,
+                                                        "suburban": false,
+                                                        "bus": false,
+                                                        "ferry": false,
+                                                        "subway": false,
+                                                        "tram": false,
+                                                        "taxi": false
+                                                }
+                                        },
+                                        "departure": "2023-06-04T17:24:00+02:00",
+                                        "plannedDeparture": "2023-06-04T17:24:00+02:00",
+                                        "departureDelay": null,
+                                        "arrival": "2023-06-04T18:37:00+02:00",
+                                        "plannedArrival": "2023-06-04T18:37:00+02:00",
+                                        "arrivalDelay": null,
+                                        "reachable": true,
+                                        "tripId": "1|909979|1|80|4062023",
+                                        "line": {
+                                                "type": "line",
+                                                "id": "x2-495",
+                                                "fahrtNr": "495",
+                                                "name": "X2 495",
+                                                "public": true,
+                                                "adminCode": "74____",
+                                                "productName": "X2",
+                                                "mode": "train",
+                                                "product": "nationalExpress",
+                                                "operator": {
+                                                        "type": "operator",
+                                                        "id": "sj",
+                                                        "name": "SJ"
+                                                }
+                                        },
+                                        "direction": "Malmö Central",
+                                        "arrivalPlatform": null,
+                                        "plannedArrivalPlatform": null,
+                                        "arrivalPrognosisType": "prognosed",
+                                        "departurePlatform": null,
+                                        "plannedDeparturePlatform": null,
+                                        "departurePrognosisType": "prognosed",
+                                        "remarks": [
+                                                {
+                                                        "text": "Subject to compulsory reservation",
+                                                        "type": "hint",
+                                                        "code": "compulsory-reservation",
+                                                        "summary": "compulsory seat reservation"
+                                                },
+                                                {
+                                                        "type": "hint",
+                                                        "code": "OR",
+                                                        "text": "Seat reservation included in price when purchased together with ticket"
+                                                },
+                                                {
+                                                        "text": "Bordrestaurant",
+                                                        "type": "hint",
+                                                        "code": "on-board-restaurant",
+                                                        "summary": "Bordrestaurant available"
+                                                },
+                                                {
+                                                        "text": "space for wheelchairs",
+                                                        "type": "hint",
+                                                        "code": "wheelchairs-space",
+                                                        "summary": "space for wheelchairs"
+                                                },
+                                                {
+                                                        "text": "power sockets for laptop",
+                                                        "type": "hint",
+                                                        "code": "power-sockets",
+                                                        "summary": "power sockets available"
+                                                }
+                                        ]
+                                }
+                        ],
+                        "refreshToken": "T$A=1@O=Stockholm Central@L=7400002@a=128@$A=1@O=Göteborg Central@L=7400003@a=128@$202306041333$202306041635$X2   435$$1$$$$$$§T$A=1@O=Göteborg Central@L=7400003@a=128@$A=1@O=Halmstad Central@L=7400014@a=128@$202306041724$202306041837$X2   495$$1$$$$$$",
+                        "remarks": [],
+                        "price": null
+                },
+                {
+                        "type": "journey",
+                        "legs": [
+                                {
+                                        "origin": {
+                                                "type": "stop",
+                                                "id": "7400002",
+                                                "name": "Stockholm Central",
+                                                "location": {
+                                                        "type": "location",
+                                                        "id": "7400002",
+                                                        "latitude": 59.33001,
+                                                        "longitude": 18.05763
+                                                },
+                                                "products": {
+                                                        "nationalExpress": true,
+                                                        "national": true,
+                                                        "regionalExpress": true,
+                                                        "regional": true,
+                                                        "suburban": false,
+                                                        "bus": false,
+                                                        "ferry": false,
+                                                        "subway": false,
+                                                        "tram": false,
+                                                        "taxi": false
+                                                }
+                                        },
+                                        "destination": {
+                                                "type": "stop",
+                                                "id": "7400003",
+                                                "name": "Göteborg Central",
+                                                "location": {
+                                                        "type": "location",
+                                                        "id": "7400003",
+                                                        "latitude": 57.709309,
+                                                        "longitude": 11.973425
+                                                },
+                                                "products": {
+                                                        "nationalExpress": true,
+                                                        "national": true,
+                                                        "regionalExpress": true,
+                                                        "regional": true,
+                                                        "suburban": false,
+                                                        "bus": true,
+                                                        "ferry": false,
+                                                        "subway": false,
+                                                        "tram": false,
+                                                        "taxi": false
+                                                }
+                                        },
+                                        "departure": "2023-06-04T14:34:00+02:00",
+                                        "plannedDeparture": "2023-06-04T14:34:00+02:00",
+                                        "departureDelay": null,
+                                        "arrival": "2023-06-04T17:40:00+02:00",
+                                        "plannedArrival": "2023-06-04T17:40:00+02:00",
+                                        "arrivalDelay": null,
+                                        "reachable": true,
+                                        "tripId": "1|909766|0|80|4062023",
+                                        "line": {
+                                                "type": "line",
+                                                "id": "x2-437",
+                                                "fahrtNr": "437",
+                                                "name": "X2 437",
+                                                "public": true,
+                                                "adminCode": "74____",
+                                                "productName": "X2",
+                                                "mode": "train",
+                                                "product": "nationalExpress",
+                                                "operator": {
+                                                        "type": "operator",
+                                                        "id": "sj",
+                                                        "name": "SJ"
+                                                }
+                                        },
+                                        "direction": "Göteborg Central",
+                                        "arrivalPlatform": null,
+                                        "plannedArrivalPlatform": null,
+                                        "arrivalPrognosisType": "prognosed",
+                                        "departurePlatform": null,
+                                        "plannedDeparturePlatform": null,
+                                        "departurePrognosisType": "prognosed",
+                                        "remarks": [
+                                                {
+                                                        "text": "Subject to compulsory reservation",
+                                                        "type": "hint",
+                                                        "code": "compulsory-reservation",
+                                                        "summary": "compulsory seat reservation"
+                                                },
+                                                {
+                                                        "type": "hint",
+                                                        "code": "OR",
+                                                        "text": "Seat reservation included in price when purchased together with ticket"
+                                                },
+                                                {
+                                                        "text": "Bordrestaurant",
+                                                        "type": "hint",
+                                                        "code": "on-board-restaurant",
+                                                        "summary": "Bordrestaurant available"
+                                                },
+                                                {
+                                                        "text": "space for wheelchairs",
+                                                        "type": "hint",
+                                                        "code": "wheelchairs-space",
+                                                        "summary": "space for wheelchairs"
+                                                },
+                                                {
+                                                        "text": "power sockets for laptop",
+                                                        "type": "hint",
+                                                        "code": "power-sockets",
+                                                        "summary": "power sockets available"
+                                                }
+                                        ]
+                                },
+                                {
+                                        "origin": {
+                                                "type": "stop",
+                                                "id": "7400003",
+                                                "name": "Göteborg Central",
+                                                "location": {
+                                                        "type": "location",
+                                                        "id": "7400003",
+                                                        "latitude": 57.709309,
+                                                        "longitude": 11.973425
+                                                },
+                                                "products": {
+                                                        "nationalExpress": true,
+                                                        "national": true,
+                                                        "regionalExpress": true,
+                                                        "regional": true,
+                                                        "suburban": false,
+                                                        "bus": true,
+                                                        "ferry": false,
+                                                        "subway": false,
+                                                        "tram": false,
+                                                        "taxi": false
+                                                }
+                                        },
+                                        "destination": {
+                                                "type": "stop",
+                                                "id": "7400014",
+                                                "name": "Halmstad Central",
+                                                "location": {
+                                                        "type": "location",
+                                                        "id": "7400014",
+                                                        "latitude": 56.669212,
+                                                        "longitude": 12.864301
+                                                },
+                                                "products": {
+                                                        "nationalExpress": true,
+                                                        "national": false,
+                                                        "regionalExpress": true,
+                                                        "regional": true,
+                                                        "suburban": false,
+                                                        "bus": false,
+                                                        "ferry": false,
+                                                        "subway": false,
+                                                        "tram": false,
+                                                        "taxi": false
+                                                }
+                                        },
+                                        "departure": "2023-06-04T18:40:00+02:00",
+                                        "plannedDeparture": "2023-06-04T18:40:00+02:00",
+                                        "departureDelay": null,
+                                        "arrival": "2023-06-04T20:03:00+02:00",
+                                        "plannedArrival": "2023-06-04T20:03:00+02:00",
+                                        "arrivalDelay": null,
+                                        "reachable": true,
+                                        "tripId": "1|325769|0|80|4062023",
+                                        "line": {
+                                                "type": "line",
+                                                "id": "r-1143",
+                                                "fahrtNr": "1143",
+                                                "name": "R 1143",
+                                                "public": true,
+                                                "adminCode": "3126__",
+                                                "productName": "R",
+                                                "mode": "train",
+                                                "product": "regional",
+                                                "operator": {
+                                                        "type": "operator",
+                                                        "id": "skanetrafiken-oresundstag",
+                                                        "name": "Skånetrafiken Öresundståg"
+                                                }
+                                        },
+                                        "direction": "Malmö Hyllie station",
+                                        "arrivalPlatform": null,
+                                        "plannedArrivalPlatform": null,
+                                        "arrivalPrognosisType": "prognosed",
+                                        "departurePlatform": null,
+                                        "plannedDeparturePlatform": null,
+                                        "departurePrognosisType": "prognosed",
+                                        "remarks": [
+                                                {
+                                                        "text": "Reservation possible",
+                                                        "type": "hint",
+                                                        "code": "optional-reservation",
+                                                        "summary": "optional seat reservation"
+                                                },
+                                                {
+                                                        "text": "space for wheelchairs",
+                                                        "type": "hint",
+                                                        "code": "wheelchairs-space",
+                                                        "summary": "space for wheelchairs"
+                                                }
+                                        ]
+                                }
+                        ],
+                        "refreshToken": "T$A=1@O=Stockholm Central@L=7400002@a=128@$A=1@O=Göteborg Central@L=7400003@a=128@$202306041434$202306041740$X2   437$$1$$$$$$§T$A=1@O=Göteborg Central@L=7400003@a=128@$A=1@O=Halmstad Central@L=7400014@a=128@$202306041840$202306042003$R   1143$$1$$$$$$",
+                        "remarks": [],
+                        "price": null
+                },
+                {
+                        "type": "journey",
+                        "legs": [
+                                {
+                                        "origin": {
+                                                "type": "stop",
+                                                "id": "7400002",
+                                                "name": "Stockholm Central",
+                                                "location": {
+                                                        "type": "location",
+                                                        "id": "7400002",
+                                                        "latitude": 59.33001,
+                                                        "longitude": 18.05763
+                                                },
+                                                "products": {
+                                                        "nationalExpress": true,
+                                                        "national": true,
+                                                        "regionalExpress": true,
+                                                        "regional": true,
+                                                        "suburban": false,
+                                                        "bus": false,
+                                                        "ferry": false,
+                                                        "subway": false,
+                                                        "tram": false,
+                                                        "taxi": false
+                                                }
+                                        },
+                                        "destination": {
+                                                "type": "stop",
+                                                "id": "7400014",
+                                                "name": "Halmstad Central",
+                                                "location": {
+                                                        "type": "location",
+                                                        "id": "7400014",
+                                                        "latitude": 56.669212,
+                                                        "longitude": 12.864301
+                                                },
+                                                "products": {
+                                                        "nationalExpress": true,
+                                                        "national": false,
+                                                        "regionalExpress": true,
+                                                        "regional": true,
+                                                        "suburban": false,
+                                                        "bus": false,
+                                                        "ferry": false,
+                                                        "subway": false,
+                                                        "tram": false,
+                                                        "taxi": false
+                                                }
+                                        },
+                                        "departure": "2023-06-04T15:51:00+02:00",
+                                        "plannedDeparture": "2023-06-04T15:51:00+02:00",
+                                        "departureDelay": null,
+                                        "arrival": "2023-06-04T20:37:00+02:00",
+                                        "plannedArrival": "2023-06-04T20:37:00+02:00",
+                                        "arrivalDelay": null,
+                                        "reachable": true,
+                                        "tripId": "1|909365|0|80|4062023",
+                                        "line": {
+                                                "type": "line",
+                                                "id": "x2-405",
+                                                "fahrtNr": "405",
+                                                "name": "X2 405",
+                                                "public": true,
+                                                "adminCode": "74____",
+                                                "productName": "X2",
+                                                "mode": "train",
+                                                "product": "nationalExpress",
+                                                "operator": {
+                                                        "type": "operator",
+                                                        "id": "sj",
+                                                        "name": "SJ"
+                                                }
+                                        },
+                                        "direction": "Helsingborg Central",
+                                        "arrivalPlatform": null,
+                                        "plannedArrivalPlatform": null,
+                                        "arrivalPrognosisType": "prognosed",
+                                        "departurePlatform": null,
+                                        "plannedDeparturePlatform": null,
+                                        "departurePrognosisType": "prognosed",
+                                        "remarks": [
+                                                {
+                                                        "text": "Subject to compulsory reservation",
+                                                        "type": "hint",
+                                                        "code": "compulsory-reservation",
+                                                        "summary": "compulsory seat reservation"
+                                                },
+                                                {
+                                                        "type": "hint",
+                                                        "code": "OR",
+                                                        "text": "Seat reservation included in price when purchased together with ticket"
+                                                },
+                                                {
+                                                        "text": "Bordrestaurant",
+                                                        "type": "hint",
+                                                        "code": "on-board-restaurant",
+                                                        "summary": "Bordrestaurant available"
+                                                },
+                                                {
+                                                        "text": "space for wheelchairs",
+                                                        "type": "hint",
+                                                        "code": "wheelchairs-space",
+                                                        "summary": "space for wheelchairs"
+                                                },
+                                                {
+                                                        "text": "power sockets for laptop",
+                                                        "type": "hint",
+                                                        "code": "power-sockets",
+                                                        "summary": "power sockets available"
+                                                }
+                                        ]
+                                }
+                        ],
+                        "refreshToken": "T$A=1@O=Stockholm Central@L=7400002@a=128@$A=1@O=Halmstad Central@L=7400014@a=128@$202306041551$202306042037$X2   405$$1$$$$$$",
+                        "remarks": [],
+                        "price": null
+                }
+        ],
+        "realtimeDataUpdatedAt": 1685876343
+}
